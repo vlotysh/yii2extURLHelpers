@@ -1,0 +1,21 @@
+{
+    "name": "oland-studio/yii2-myextension",
+    "description": "myextension",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "vlad",
+            "email": "Gangsta1@i.ua"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "myextension\\test\\": ""
+        }
+    }
+}
